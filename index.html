@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAdio Tele Academy &#8211; Tele Academy</title>
+    <link rel="stylesheet" href="./css/vendors/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/vendors/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/vendors/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/vendors/animate.min.css">
+    <link rel="stylesheet" href="./css/vendors/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animation.css">
+</head>
+
+<body>
+    <section id="home-1" class="part-1">
+        <!------------------------menu bar----------------->
+        <div class="menu-bar">
+            <ul>
+                <li></i><a class="home" href="./index.html">HOME</a></li>
+                <li><a class="tele-videos js-waypoints" href="./index.html">TELE ACADEMY VIDEOS</a></li>
+            </ul>
+        </div>
+        <div class="navbar-section  ">
+            <nav>
+                <!--------------------mobile-menu----------->
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776</span>
+                    <div id="myNav" class="content-overlay">
+                        <a onclick="closeNav()" href="./index.html">
+                            Home</a>
+                        <a onclick="closeNav()" href="./about.html">
+
+                            AboutUS</a>
+                        <a onclick="closeNav()" href="./advertise.html">
+
+                            Advertise</a>
+                        <a onclick="closeNav()" href="./contact.html">
+
+                            Contact US</a>
+
+                    </div>
+
+                </div>
+                <!--------end mobile menu----------->
+
+                <div class="nav-brand-logo">
+                    <a href="./index.html">
+                        <h1 class="brand-logo-heading">RAdio Tele Academy</h1>
+                    </a>
+                </div>
+                <div class="nav-item-area">
+                    <ul class="navbar-item-ul">
+                        <li><a href="./index.html" class="navbar-item home-2 active-2">
+                                <!-----Animation-->
+                                <div class="music-h music-v">
+                                    <div class="line-1"></div>
+                                    <div class="line-2"></div>
+                                    <div class="line-3"></div>
+                                    <div class="line-4"></div>
+                                    <div class="line-5"></div>
+                                </div>
+                                <!-----Animation-->
+                                Home
+                            </a></li>
+                        <li><a href="./about.html" class="navbar-item about">
+                                <!-----Animation-->
+                                <div class="music-a">
+                                    <div class="line-1"></div>
+                                    <div class="line-2"></div>
+                                    <div class="line-3"></div>
+                                    <div class="line-4"></div>
+                                    <div class="line-5"></div>
+                                </div>
+                                <!-----Animation-->
+                                AboutUS
+                            </a></li>
+                        <li><a href="./advertise.html" class="navbar-item advertise">
+                                <!-----Animation-->
+                                <div class="music-ad">
+                                    <div class="line-1"></div>
+                                    <div class="line-2"></div>
+                                    <div class="line-3"></div>
+                                    <div class="line-4"></div>
+                                    <div class="line-5"></div>
+                                </div>
+                                <!-----Animation-->
+                                Advertise
+                            </a></li>
+                        <li><a href="./contact.html" class="navbar-item contact">
+                                <!-----Animation-->
+                                <div class="music-c">
+                                    <div class="line-1"></div>
+                                    <div class="line-2"></div>
+                                    <div class="line-3"></div>
+                                    <div class="line-4"></div>
+                                    <div class="line-5"></div>
+                                </div>
+                                <!-----Animation-->
+                                Contact US
+                            </a></li>
+
+                    </ul>
+
+
+
+                </div>
+                <a href="#!">
+                    <div class="listen-area">
+                        <i class="fas fa-play"></i>
+                        <h3 class="lisen-now">Listen NOW</h3>
+                        <h2 class="play-h2" onclick="clicToPlay()"><i class="p-h2-icon fas fa-play">
+                            </i>play</h2>
+                        <div class="pause-area" onclick="clicToPause()"><i class="p-h2-icon fas fa-pause"></i>PAUSE
+                        </div>
+                    </div>
+                </a>
+            </nav>
+        </div>
+
+
+        <div class="heading-area-p">
+            <div>
+                <h1 class="p-heading-1">WELCOME TO RADIO TELE ACADEMY WEBSITE.</h1>
+            </div>
+            <div>
+                <h1 class="p-heading-2">CLICK PLAY BUTTON TO LISTEN</h1>
+            </div>
+        </div>
+
+        <a class="play-area">
+            <div class="play-bg">
+                <img class="img-bg" src="./img/play-cover.jpg" alt="">
+
+                <i id="playbutton" onclick="clicToPlay()" class="play-icon fas fa-play-circle"></i>
+
+                <i id="pause" class="pause-icon fas fa-pause-circle" onclick="clicToPause()"></i>
+                <audio id="myaudio" autoplay>
+                    <source src="http://119.148.23.88:1021/;.mp3" type="audio/mp3">
+                </audio>
+                <div class="play-img">
+                    <img style="width: 100px; height: 80px;" src="./img/pexels-photo-59107-170x170.jpeg">
+                </div>
+            </div>
+        </a>
+
+        <div class="heading-area-p">
+            <div>
+                <h1 class="p-heading-1">DOWNLOAD OUR APP BELOW: IPHONE AND ANDROID</h1>
+            </div>
+            <div>
+                <a class="android-icon"
+                    href="https://play.google.com/store/apps/details?id=com.iuriidolotov.academyradio"><img
+                        src="./img/android.png"></a>
+                <a class="apple-icon" href="https://apps.apple.com/app/id1509782479"><img src="./img/apple.png" alt=""
+                        srcset=""></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!------------------------------part-2--------------------------------->
+    <section class="part-2 mb-5 container-fluid">
+        <div class="heading-area-p">
+            <div>
+                <h1 class="p-heading-1">WATCH ACADEMY TV SHOW WITH FRERE MOISE</h1>
+            </div>
+        </div>
+        <button class="btn-my px-3" data-filter="all" type="button">ALL</button>
+        <button class="btn-my px-3" data-filter=".haiti" type="button">HAITI</button>
+        <button class="btn-my px-3" data-filter=".news" type="button">NEWS</button>
+        <button class="btn-my px-3" data-filter=".tele" type="button">TETE ACADEMY</button>
+
+        <div class="row mix">
+            <div class="t-area col-md-4 haiti mix">
+                <div class="mask-area mb-5">
+                    <img class="mask-img" style="width: 100%; height: 255px;"
+                        src="./img/pexels-photo-59107-170x170.jpeg" alt="">
+                    <a class="mask-text" href="#">Tele media</a>
+                </div>
+            </div>
+            <div class="t-area col-md-4 news mix">
+                <div class="mask-area mb-5">
+                    <img class="mask-img" style="width: 100%; height: 255px;"
+                        src="./img/pexels-photo-59107-170x170.jpeg" alt="">
+                    <a class="mask-text" href="#">Tele media</a>
+                </div>
+            </div>
+            <div class="t-area col-md-4 haiti mix ">
+                <div class="mask-area mb-5">
+                    <img class="mask-img" style="width: 100%; height: 255px;"
+                        src="./img/pexels-photo-59107-170x170.jpeg" alt="">
+                    <a class="mask-text" href="#">Tele media</a>
+                </div>
+            </div>
+            <div class="t-area col-md-4 news mix">
+                <div class="mask-area mb-5">
+                    <img class="mask-img" style="width: 100%; height: 255px;"
+                        src="./img/pexels-photo-59107-170x170.jpeg" alt="">
+                    <a class="mask-text" href="#">Tele media</a>
+                </div>
+            </div>
+            <div class="t-area col-md-4 tele news mix">
+                <div class="mask-area mb-5">
+                    <img class="mask-img" style="width: 100%; height: 255px;"
+                        src="./img/pexels-photo-59107-170x170.jpeg" alt="">
+                    <a class="mask-text" href="#">Tele media</a>
+                </div>
+            </div>
+            <div class="t-area col-md-4">
+                <div class="mask-area mb-5">
+                    <img class="mask-img" style="width: 100%; height: 255px;"
+                        src="./img/pexels-photo-59107-170x170.jpeg" alt="">
+                    <a class="mask-text" href="#">Tele media</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="part-3">
+        <div class="container">
+            <div class="heading-area-3">
+                <h1>RADIO TELE ACADEMY</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 p-3-c">
+                    <div class="d-p-3"><span>CONTACTS</span></div>
+                    <ul>
+                        <li><i class="fas fa-home mr-3"></i><a href="./index.html">https://radioteleacademy.com/</a>
+                        </li>
+                        <li><i class="fas fa-phone-alt mr-3"></i><a href="#">347-392-6401</a></li>
+                        <li><i class="fas fa-street-view mr-3"></i><a href="#">Church AVe, Brooklyn, NY</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 p-3-c2">
+                    <div class="d-p-3"><span>ABOUT US</span></div>
+                    <p>Radio TELE Academy is a modern and exciting Haitian Radio Station in New York City.</p>
+                </div>
+                <div class="col-md-3 p-3-c3">
+                    <div class="d-p-3"><span>MENU</span></div>
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT US</a></li>
+                        <li><a href="./advertise.html">ADVERTISE</a></li>
+                        <li><a href="./contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>Copyright 2019 Radio Tele Academy</p>
+            <a class="f-home" href="./index.html">HOME</a>
+            <a href="#home-1" class="box-1">
+                <div class="box"><i class="fas fa-chevron-up"></i></div>
+            </a>
+        </div>
+    </footer>
+
+    <!----------------------------------js script link------------------>
+
+
+
+
+
+
+
+    <script src="./js/vendors/jquery-3.5.1.min.js"></script>
+    <script src="./js/vendors/all.min.js"></script>
+    <script src="./js/vendors/jquery.waypoints.min.js"></script>
+    <script src="./js/vendors/bootstrap.js"></script>
+    <script src="./js/vendors/mixitup.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

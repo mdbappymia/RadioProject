@@ -1,0 +1,25 @@
+@keyframes bottom-to-top {
+  from {
+    top: 50%;
+  }
+
+  to {
+    top: 0;
+  }
+}
+
+@keyframes animate1 {
+  50% {
+    background-color: #FFF;
+    right: 3px;
+    width: 15px;
+  }
+}
+
+@keyframes animate2 {
+  50% {
+    background-color: #FFF;
+    right: 3px;
+    width: 20px;
+  }
+}
