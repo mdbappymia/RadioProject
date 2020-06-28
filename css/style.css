@@ -36,7 +36,8 @@ a:hover {
 /**/
 
 .part-1 {
-  background: url(./../img/part-1.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.432)),
+    url(./../img/part-1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -341,7 +342,8 @@ a:hover {
 }
 
 .part-3 {
-  background: url(./../img/part-2.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.432)),
+    url(./../img/part-2.jpeg);
   background-position: center;
   background-size: cover;
   font-size: 1.6rem;
@@ -586,7 +588,8 @@ footer .container p {
 /****************************************/
 
 .about-part-1 {
-  background: url(./../img/about-1.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.432)),
+    url(./../img/about-1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 10rem;

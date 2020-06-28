@@ -48,8 +48,8 @@ $(document).ready(function () {
     $(".c-link-text-2").removeClass("c-border-bottom");
     $(".c-link-text-1").removeClass("c-border-bottom");
   });
-
-  if ((autoplay = 1)) {
+  b = 1;
+  if ((b = 1)) {
     $("#playbutton").hide();
     $(".pause-icon").fadeIn();
     $(".play-h2").hide();
@@ -79,6 +79,5 @@ function clicToPause() {
   $(myAudio)[0].pause();
   $("#playbutton").fadeIn();
   $(".pause-icon").hide();
-
   $(".pause-area").hide();
 }
