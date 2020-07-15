@@ -1,30 +1,38 @@
-$(document).ready(function() {
+$(document).ready(function () {
     var mixer = mixitup(".mix");
-    $(".listen-area").hover(function() {
+    $(".listen-area").hover(function () {
         $(".play-h2").toggleClass("p-h2");
     });
 
-    $(".home-2").hover(function() {
+    $(".home-2").hover(function () {
         $(".music-h").toggleClass("music-v");
     });
-    $(".about").hover(function() {
+    $(".about").hover(function () {
         $(".music-a").toggleClass("music-v");
     });
-    $(".advertise").hover(function() {
+    $(".advertise").hover(function () {
         $(".music-ad").toggleClass("music-v");
     });
-    $(".contact").hover(function() {
+    $(".contact").hover(function () {
         $(".music-c").toggleClass("music-v");
     });
+    $(".privecy").hover(function () {
+        $(".music-p").toggleClass("music-v");
+    });
+
+    $(".privecy, .dropdown").hover(function () {
+        $(".dropdown").toggleClass("dropdown-hover");
+    });
+
 
     /*waypoints*/
-    $(".js-waypoints").waypoint(function(direction) {
+    $(".js-waypoints").waypoint(function (direction) {
         if (direction == "down") {
             $(".navbar-section").addClass("sticky");
         } else $(".navbar-section").removeClass("sticky");
     });
 
-    $(".contact-link-1").click(function() {
+    $(".contact-link-1").click(function () {
         $(".send-message").addClass("active");
         $(".radio-tele").removeClass("active");
         $(".contact-us").removeClass("active");
@@ -32,7 +40,7 @@ $(document).ready(function() {
         $(".c-link-text-2").removeClass("c-border-bottom");
         $(".c-link-text-3").removeClass("c-border-bottom");
     });
-    $(".contact-link-2").click(function() {
+    $(".contact-link-2").click(function () {
         $(".contact-us").addClass("active");
         $(".send-message").removeClass("active");
         $(".radio-tele").removeClass("active");
@@ -40,7 +48,7 @@ $(document).ready(function() {
         $(".c-link-text-1").removeClass("c-border-bottom");
         $(".c-link-text-3").removeClass("c-border-bottom");
     });
-    $(".contact-link-3").click(function() {
+    $(".contact-link-3").click(function () {
         $(".radio-tele").addClass("active");
         $(".send-message").removeClass("active");
         $(".contact-us").removeClass("active");
