@@ -26,7 +26,9 @@ html {
   font-family: "Khand", sans-serif;
   scroll-behavior: smooth;
 }
-
+#myNav {
+  transition: 0.5s;
+}
 body {
   box-sizing: border-box;
   font-family: "Khand", sans-serif;
@@ -1124,4 +1126,13 @@ label a:hover {
 .privecy-active {
   font-weight: bold;
   color: #e0863b;
+}
+
+.cross-icon {
+  float: right;
+}
+.privecy-m-option {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  display: none;
 }

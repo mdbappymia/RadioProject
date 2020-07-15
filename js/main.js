@@ -23,7 +23,9 @@ $(document).ready(function () {
     $(".privecy, .dropdown").hover(function () {
         $(".dropdown").toggleClass("dropdown-hover");
     });
-
+    $(".p-drop").click(function () {
+        $(".privecy-m-option").toggleClass("dropdown-hover");
+    })
 
     /*waypoints*/
     $(".js-waypoints").waypoint(function (direction) {

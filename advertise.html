@@ -20,20 +20,15 @@
 <body>
     <section id="home-3" class="about-part-1">
         <!------------------------menu bar----------------->
-        <div class="menu-bar">
-            <ul>
-                <li>
-                    </i><a class="home" href="./index.html">HOME</a></li>
-                <li><a class="tele-videos js-waypoints" href="#">ABOUT RADIO TELE ACADEMY &#8211; RAdio Tele Academy</a>
-                </li>
-            </ul>
-        </div>
+        
         <div class="navbar-section">
             <nav>
                 <!--------------------mobile-menu----------->
                 <div class="mobile-menu">
                     <span onclick="openNav()">&#9776</span>
                     <div id="myNav" class="content-overlay">
+                        <div class="cross-icon"><span onclick="closeNav()">&times;</span></div>
+
                         <a onclick="closeNav()" href="./index.html">
                             Home</a>
                         <a onclick="closeNav()" href="./about.html">
@@ -45,9 +40,14 @@
                         <a onclick="closeNav()" href="./contact.html">
 
                             Contact US</a>
-                            <a onclick="closeNav()" href="./privecy.html">
+                            <a class="p-drop" href="javascript:void"">
 
                                 Privecy Policy</a>
+                                <ul class="privecy-m-option">
+                                    <li><a onclick="closeNav()" href="./privecy.html">TikTok Fans Maker</a></li>
+                                    <li><a onclick="closeNav()" href="#">Own Face Sticker - WhatsApp</a> </li>
+                                    <li><a onclick="closeNav()" href="#">Smart Apps Locker</a>  </li>
+                                </ul>
 
                     </div>
 
@@ -119,7 +119,7 @@
                         </li>
                         <!--new added-->
                         <li>
-                            <a href="./privecy.html" class="navbar-item privecy">
+                            <a href="javascript:void()" class="navbar-item privecy">
                                 <!-----Animation-->
                                 <div class="music-p">
                                     <div class="line-1"></div>
@@ -134,9 +134,9 @@
                              <!--Dropdown-->
 
                              <ul class="dropdown">
-                                <li class="dropdown-item"><a class="dropdown-link" href="#"></a> TikTok Fans Maker</li>
-                                <li class="dropdown-item"><a class="dropdown-link" href="#"></a> Own Face Sticker - WhatsApp</li>
-                                <li class="dropdown-item"><a class="dropdown-link" href="#"></a>  Smart Apps Locker</li>
+                                <li class="dropdown-item"><a class="dropdown-link" href="./privecy.html">TikTok Fans Maker</a></li>
+                                <li class="dropdown-item"><a class="dropdown-link" href="#">Own Face Sticker - WhatsApp</a> </li>
+                                <li class="dropdown-item"><a class="dropdown-link" href="#">Smart Apps Locker</a>  </li>
                             </ul>
                         <!--Dropdown-->
                         </li>
