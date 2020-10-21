@@ -1,44 +1,56 @@
-@media only screen and (max-width:800px){
-    .menu-bar{
-        display: none;
-    }
-    .navbar-item{
-        display: none;
-    }
-    .mobile-menu{
-        display: inline !important;
-    }
-    .mobile-menu span{
-        background-color: black;
-        color: #fff;
-        padding: 1.2rem 2.5rem;
-        font-size: 3rem;
-    }
-    .lisen-now{
-        display: none !important;
-    }
-    .listen-area{
-        padding: 2.8rem !important;
-        background-color: black;
-    }
-    .p-h2{
-        display: none;
-    }
-    .play-h2{
-        display: none ;
-    }
+@media only screen and (max-width: 800px) {
+  .menu-bar {
+    display: none;
+  }
+  .navbar-item {
+    display: none;
+  }
+  .mobile-menu {
+    display: inline !important;
+  }
+  .mobile-menu span {
+    background-color: black;
+    color: #fff;
+    padding: 1.2rem 2.5rem;
+    font-size: 3rem;
+  }
+  .lisen-now {
+    display: none !important;
+  }
+  .listen-area {
+    padding: 2.8rem !important;
+    background-color: black;
+  }
+  .p-h2 {
+    display: none;
+  }
+  .play-h2 {
+    display: none;
+    transform: translateY(44px);
+    -webkit-transform: translateY(44px);
+    -moz-transform: translateY(44px);
+    -ms-transform: translateY(44px);
+    -o-transform: translateY(44px);
+  }
+  .pause-area {
+    transform: translateY(44px);
+    -webkit-transform: translateY(44px);
+    -moz-transform: translateY(44px);
+    -ms-transform: translateY(44px);
+    -o-transform: translateY(44px);
+  }
 }
-@media only screen and (max-width:435px){
-    .menu-bar{
-        display: none;
-    }
-    html{
-        font-size: 8px !important;
-    }
+@media only screen and (max-width: 435px) {
+  .menu-bar {
+    display: none;
+  }
+  html {
+    font-size: 8px !important;
+  }
 }
 
-@media only screen and (max-width:360px){
-    html{
-        font-size: 7px !important;
-    }
+@media only screen and (max-width: 360px) {
+  html {
+    font-size: 7px !important;
+  }
 }
